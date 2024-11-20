@@ -4,7 +4,7 @@ const array = randomNum(100, 10);
 const tree = new Tree(array);
 
 /*
-Pretty print from TOP. This was made to visualize the binary tree ina a struture format.
+Pretty print from TOP. This was made to visualize the binary tree in a strutured format.
 */
 const prettyPrint = (node = tree.root, prefix = "", isLeft = true) => {
     if (node === null) {
